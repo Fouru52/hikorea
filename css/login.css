@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Pretendard-Light';
+  src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+#login {
+  text-align: center;
+  width: 650px;
+  margin: 0 auto;
+  position: absolute;
+  top:40%;
+  left: 50%;
+  transform: translate(-50%,-50%); /* 나 자신의 위치 */
+}
+
+
+.title {
+  font-size: 36px;
+  margin: 50px auto;
+  font-weight: bold;
+  color: #FF0000;
+
+}
+
+
+.title strong {
+  color: #102F52;
+}
+
+.login_text {
+  margin-bottom: 15px;
+  float: left;
+}
+
+
+.login_id > input {
+  width: 380px;
+  height: 50px;
+  padding: 0 0 0 10px;
+  outline: none;
+  border: 1px solid #848484;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.login_password > input {
+  width: 380px;
+  height: 50px;
+  padding: 0 0 0 10px;
+  outline: none;
+  border: 1px solid #848484;
+  border-radius: 3px;
+}
+
+.login_submit > a {
+  background: #102F52;
+  width: 220px; 
+  height: 115px;
+  border-radius: 5px;
+  color: #fff;
+  float: right;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login_submit > a > span {
+  margin: 0 10px 2px 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.login_id, .login_password {
+  font-size: 14px;
+}
+
+
+
+.login_checkbox{
+  margin-top: 20px;
+  float: left;
+}
+
+#btn {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 15px auto;
+  width: 650px;
+  margin-bottom: 30px;
+}
+
+.btn_submit > input:hover {
+  background: #FF0000;
+  color: #fff;
+}
+
+.btn_submit > input{
+  flex: 1;
+  background: #e4e4e4;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #102F52;
+}
+
+.nomemver_order {
+  text-align: left;
+  color: #848484;
+}
+.order{
+  display: block;
+  margin-top: 20px;
+}
+
+.guide{
+  color: #777777;
+  font-size: 14px;
+}
+.guide p{
+  margin: 7px 0;
+}
+
