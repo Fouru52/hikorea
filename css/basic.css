@@ -119,14 +119,16 @@ header button {
   height: 400px;
   background: url('../img/people_tablet.png') no-repeat top right/ 399px 389px;
   opacity: 50%;
+  padding: 0 20px;
+
 }
 .main_info{
   position: absolute;
-  bottom: 230px;
+  bottom: 190px;
   padding: 0 20px;
 }
 .main_info h2{
-  margin-bottom: 20px;
+  margin-bottom: 80px;
   font-size: 40px;
   font-weight: 500;
   color: #FF0000;
@@ -160,43 +162,30 @@ header button {
   background: #FF0000;
 }
 
-#myCurrent {
-  width: 100%;
-  height: 400px;
-  margin-top: -20px;
-}
+
 .myCurrent_border {
   background: #102F52;
-  height: 300px;
-  margin: 40px 15px;
-  padding: 0 10px;
+  height: 350px;
   border-radius: 60px 0 0 60px;
-  display: flex;
-  justify-content: space-around;
+  vertical-align: middle;
+  margin: 20px auto;
+  text-align: center;
 }
 .profile {
-  position: relative;
-  width: 150px;
-  transform: translateX(50px);
+  padding: 10px 0;
 }
 
 .profile img{
-  width: 130px;
-  height: 130px;
+  width: 110px;
+  height: 110px;
   object-fit: center;
   border-radius: 999px;
-  text-align: center;
-  position: absolute;
-  top:50px;
-  left: 10px;
   opacity: 80%;
 }
 .profile a{
-  font-size: 17px;
+  font-size: 15px;
   color: #fff;
   display: block;
-  text-align: center;
-  transform: translateY(195px);
 }
 .profile a:hover{
   text-decoration: underline;
@@ -206,15 +195,13 @@ header button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 38px;
 }
 
 .profile_btns button {
-  flex: 1;
   background: #f5f2f2;
-  width: 200px;
-  margin: 5px 0;
-  font-size: 15px;
+  margin: 3px 0;
+  width: 140px;
+  padding: 2px 0;
   border-radius: 8px 0 0 8px;
 }
 
@@ -225,8 +212,8 @@ header button {
 
 .menu_wrap {
   /* border: 1px solid rebeccapurple; */
-  padding: 0 20px;
-  margin-top: -60px;
+  padding: 0 10px;
+  margin-top: 20px;
 }
 .menu_wrap h2, .etc_menu h2 {
   font-size: 24px;
@@ -235,7 +222,7 @@ header button {
 }
 .often_menu_boundery {
   background: #f1f1f1;
-  border-radius:50px;
+  border-radius:30px;
   display: flex;
   /* padding: 10px; */
 }
@@ -248,7 +235,7 @@ header button {
   display: inline-block;
   flex: 1;
   padding: 10px 0;
-  font-size: 13px;
+  font-size: 12px;
 }
 .often_menu_boundery img, .etc_menu_boundery img {
   width: 40px; 
@@ -267,7 +254,7 @@ header button {
 
 .etc_menu_boundery{
   background: #dadada;
-  border-radius:50px;
+  border-radius:30px;
   display: flex;
   align-items: center;
   /* padding: 10px; */
@@ -312,48 +299,47 @@ header button {
 
 #announcement{
   padding: 0 20px;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .announce_position {
   position: relative;
-  height: 280px;
+  height: 260px;
 }
 .announce {
   position: absolute;
+  width: 100%;
 }
 
 .announce .announce_btn{
   background: #102F52;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   padding: 5px 10px;
-  margin: 0 1px;
   border-radius: 10px 10px 0 0;
-  width: 100px;
+  width: 80px;
   text-align: center;
   cursor: pointer;
 }
 
 .announce_btn.btn2 {
-  transform: translateX(110px);
+  transform: translateX(85px);
 }
 .announce_btn.btn3 {
-  transform: translateX(220px);
+  transform: translateX(170px);
 }
 
 .tap .plus_btn{
   background: none;
   color: #111;
   float: right;
-  transform: translate(-25px,4px);
+  transform: translate(-5px,-30px);
 }
 
 .announce_btn ~ ul {
   padding: 20px 0;
   font-size: 16px;
   border: 1px solid #dadada;
-  height: 180px;
   border-left: none;
   border-right: none;
 }
@@ -384,14 +370,12 @@ header button {
 }
 
 #quick_btn{
-  margin-top: 330px;
-  padding: 0 20px;
+  margin-top: 40px;
   text-align: center;
 }
 #quick_btn button {
   color: #102F52;
   font-weight: 700;
-  font-size: 28px;
   border-radius: 20px;
   margin: 0 10px;
 }
@@ -416,15 +400,11 @@ header button {
   width: 80%;
   margin: auto;
 }
-.banner_top {
-  display: flex;
-  justify-content: center;
-  background: #fffffe;
-  margin-left: 30px;
-}
 
 .banner_text {
-  padding: 40px 0;
+  background: #fffffe;
+  text-align: center;
+  padding: 20px 0;
 }
 .banner_text p{
   font-size: 25px;
@@ -451,11 +431,9 @@ header button {
   font-weight: 500;
 }
 
-.banner_top img{
-  width: 252px;
-  height: 138px;
-  float: right;
-  margin-top: 30px;
+.banner_text img{
+  width: 30%;
+  height: 30%;
 }
 
 .banner_border2{
@@ -470,12 +448,13 @@ header button {
 
 footer{
   color: #fff;
+  height: 150px;
+  background: #102F52;
 }
 
 .footer_boundery{
   width: 100%;
-  height: 130px;
-  background: #102F52;
+
   padding: 10px 0;
 }
 
@@ -493,23 +472,23 @@ footer{
 
 .footer_sns {
   float: right;
-  margin-right: 45px;
+  margin-right: 20px;
   margin-top: 5px;
 }
 .footer_sns a {
   height: 100%;
 }
 .footer_sns img {
-  width: 40px;
-  height: 40px;
-  margin: 10px 5px;
+  width: 30px;
+  height: 30px;
+  margin: 25px 5px;
 }
 
 .footer_num {
   margin: 5px 0;
   display: inline-block;
   float: left;
-  margin-left: 32px;
+  margin-left: 5px;
 
 }
 .footer_num .copy {
