@@ -489,8 +489,6 @@ footer{
   font-size: 13px;
 }
 
-
-
 .topbtn{
   position: fixed;
   bottom: 140px;
@@ -509,19 +507,7 @@ footer{
   .plus_btn img{
     width: 15px;
   }
-  footer{
-    padding: 10px;
-  }
-  .footer_1 ul li {
-    font-size: 11px;
-  }
-    .footer_num .copy {
-      color: #b2b2b2;
-      font-size: 10px;
-    }
-    .footer_num {
-      font-size: 10px;
-    }
+
   }
 
 /* 350보다 작을 때 - 모바일 상태*/
@@ -548,8 +534,25 @@ footer{
     text-decoration: underline;
     color: #FF0000;
   }
-
   }
+
+  /* 389보다 작을 때 - 모바일 상태*/
+@media (max-width:390px){
+  footer{
+    padding: 10px;
+  }
+  .footer_1 ul li {
+    font-size: 13px;
+    margin-right: 8px;
+  }
+    .footer_num .copy {
+      color: #b2b2b2;
+      font-size: 11px;
+    }
+    .footer_num {
+      font-size: 11px;
+    }
+}
 
 
 
