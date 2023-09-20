@@ -38,6 +38,7 @@ button {
   max-width: 640px;
   min-width: 320px; 
   margin: auto;        /* 반응형 모바일 페이지 설정 */
+  width: 70vh;
 }
 
     /* ~ 640px */
@@ -122,9 +123,6 @@ header button {
   width: 100%;
   height: auto;
   position: relative;
-  max-width: 640px;
-  min-width: 320px; 
-  margin: auto;
 }
 .main_img{
   display: inline-block;
@@ -468,10 +466,10 @@ header button {
 }
 
 .banner_top img{
-  width: 282px;
-  height: 188px;
+  width: 252px;
+  height: 138px;
   float: right;
-  margin-top: 20px;
+  margin-top: 30px;
 
 }
 
