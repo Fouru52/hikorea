@@ -38,19 +38,7 @@ button {
   max-width: 640px;
   min-width: 320px; 
   margin: auto;        /* 반응형 모바일 페이지 설정 */
-  width: 70vh;
 }
-
-    /* ~ 640px */
-    @media (max-width:640px){
-
-    }
-
-    /* 320px ~ */
-    @media (min-width:320px){
-
-    }
-  
 
 header {
   position: fixed;
@@ -63,8 +51,6 @@ header {
   background: #fff;
   z-index: 100;
 }
-
-h1{}
 
 h1 a {
   display: block;
@@ -117,6 +103,9 @@ header button {
   height: 2000px;
   /* background: linear-gradient(transparent,#3162eb, #fff); */
   padding-top: 96px;
+  max-width: 640px;
+  min-width: 320px; 
+  margin: auto;
 }
 
 .main_hikorea {
@@ -328,6 +317,7 @@ header button {
 
 .announce_position {
   position: relative;
+  height: 280px;
 }
 .announce {
   position: absolute;
@@ -380,10 +370,6 @@ header button {
 }
 
 .announce_btn ~ ul li a{
-  width: 450px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .announce_btn ~ ul li a:hover {
@@ -470,7 +456,6 @@ header button {
   height: 138px;
   float: right;
   margin-top: 30px;
-
 }
 
 .banner_border2{
