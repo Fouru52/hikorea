@@ -15,9 +15,6 @@ body {
   font-size: 14px;
   line-height: 1.5;
   color: black;
-  max-width: 640px;
-  min-width: 320px; 
-  margin: auto;  
 }
 
 button {
@@ -125,6 +122,9 @@ header button {
   width: 100%;
   height: auto;
   position: relative;
+  max-width: 640px;
+  min-width: 320px; 
+  margin: auto;
 }
 .main_img{
   display: inline-block;
