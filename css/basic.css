@@ -491,11 +491,10 @@ footer{
 
 .topbtn{
   position: fixed;
-  bottom: 140px;
+  bottom: 20px;
   right: 20px;
   z-index: 120;
   margin: 0 auto;
-
 }
 .topbtn img{
   width: 30px;
