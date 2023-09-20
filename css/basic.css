@@ -204,11 +204,11 @@ header button {
   width: 160px;
   padding: 2px 0;
   border-radius: 8px 0 0 8px;
+  color: #102F52;
 }
 
 .profile_btns button:hover {
-  text-decoration: underline;
-  color: #102F52;
+  color: #FF0000
 }
 
 .menu_wrap {
@@ -228,7 +228,7 @@ header button {
   /* padding: 10px; */
 }
 .often_menu_boundery p {
-  font-weight: 600;
+  font-weight: 500;
   color: #102F52;
 
 }
@@ -245,7 +245,7 @@ header button {
 }
 .etc_menu_boundery p {
   vertical-align: middle;
-  font-weight: 600;
+  font-weight: 500;
   color: #102F52;
 
 }
