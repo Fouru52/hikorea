@@ -166,13 +166,14 @@ header button {
 .myCurrent_border {
   background: #102F52;
   height: 350px;
-  border-radius: 60px 0 0 60px;
+  border-radius: 20px;
   vertical-align: middle;
   margin: 20px auto;
-  text-align: center;
+  width: 300px;
 }
 .profile {
   padding: 10px 0;
+  text-align: center;
 }
 
 .profile img{
@@ -200,7 +201,7 @@ header button {
 .profile_btns button {
   background: #f5f2f2;
   margin: 3px 0;
-  width: 140px;
+  width: 160px;
   padding: 2px 0;
   border-radius: 8px 0 0 8px;
 }
@@ -213,10 +214,10 @@ header button {
 .menu_wrap {
   /* border: 1px solid rebeccapurple; */
   padding: 0 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .menu_wrap h2, .etc_menu h2 {
-  font-size: 24px;
+  font-size: 18px;
   font-weight: 500;
   margin-bottom: 10px;
 }
@@ -249,7 +250,7 @@ header button {
 
 }
 .etc_menu {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .etc_menu_boundery{
@@ -266,13 +267,13 @@ header button {
 }
 .often_menu_boundery .button_border1:hover {
   border: 3px dashed #FF0000;
-  border-radius: 50px 0 0 50px;
+  border-radius: 30px 0 0 30px;
   margin: -3px;
 
 }
 .often_menu_boundery .button_border2:hover {
   border: 3px dashed #FF0000;
-  border-radius: 0 50px 50px 0;
+  border-radius: 0 30px 30px 0;
   margin: -3px;
 
 }
@@ -283,13 +284,13 @@ header button {
 }
 .etc_menu_boundery .button_border3:hover {
   border: 3px dashed #102F52;
-  border-radius: 50px 0 0 50px;
+  border-radius: 30px 0 0 30px;
   margin: -3px;
 
 }
 .etc_menu_boundery .button_border4:hover {
   border: 3px dashed #102F52;
-  border-radius: 0 50px 50px 0;
+  border-radius: 0 30px 30px 0;
   margin: -3px;
 
 }
@@ -333,7 +334,10 @@ header button {
   background: none;
   color: #111;
   float: right;
-  transform: translate(-5px,-30px);
+  transform: translate(-5px,-26px);
+}
+.tap .plus_btn img{
+  width: 18px;
 }
 
 .announce_btn ~ ul {
@@ -370,7 +374,6 @@ header button {
 }
 
 #quick_btn{
-  margin-top: 40px;
   text-align: center;
 }
 #quick_btn button {
@@ -390,24 +393,24 @@ header button {
 
 
 #banner {
-  margin: 40px auto;
+  margin: 30px auto;
 }
 .banner_border1{
   display: block;
   background: #FF0000;
   height: 4px;
   border-radius: 8px 8px 0 0;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
 .banner_text {
   background: #fffffe;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .banner_text p{
-  font-size: 25px;
+  font-size: 22px;
   color: #102F52;
 }
 .banner_text .t_1 {
@@ -442,54 +445,44 @@ header button {
   background:  #102F52;
   height: 4px;
   border-radius: 0 0 8px 8px;
-  width: 80%;
+  width: 70%;
   margin: auto;
 }
 
 footer{
   color: #fff;
-  height: 150px;
   background: #102F52;
+  padding: 10px 10px;
+}
+.footer_boundery div {
+  margin: 8px 0;
 }
 
-.footer_boundery{
-  width: 100%;
-
-  padding: 10px 0;
+.footer_sns img {
+  width: 26px;
+  height: 26px;
 }
 
-.footer_1{
+.footer_1 ul {
   display: flex;
-  text-align: center;
 }
-.footer_1 a {
-  flex: 1;
-  padding: 10px 0;
+.footer_1 ul li{
+  float: left;
+  margin-right: 12px;
+  font-size: 16px;
 }
 .footer_1 a:hover {
   text-decoration: underline;
 }
 
 .footer_sns {
-  float: right;
-  margin-right: 20px;
-  margin-top: 5px;
 }
-.footer_sns a {
-  height: 100%;
-}
-.footer_sns img {
-  width: 30px;
-  height: 30px;
-  margin: 25px 5px;
+.footer_sns a{
+  margin: 0 5px;
 }
 
 .footer_num {
-  margin: 5px 0;
-  display: inline-block;
-  float: left;
-  margin-left: 5px;
-
+  font-size: 14px;
 }
 .footer_num .copy {
   color: #b2b2b2;
@@ -497,16 +490,63 @@ footer{
 }
 
 
+
 .topbtn{
   position: fixed;
-  bottom:140px;
-  right: 30px;
+  bottom: 140px;
+  right: 20px;
   z-index: 120;
   margin: 0 auto;
+
 }
 .topbtn img{
-  width: 50px;
+  width: 30px;
 }
+
+
+/* 320보다 작을 때 - 모바일 상태*/
+@media (max-width:321px){
+  .plus_btn img{
+    width: 15px;
+  }
+  .footer_1 ul li {
+    font-size: 12px;
+  }
+    .footer_num .copy {
+      color: #b2b2b2;
+      font-size: 12px;
+    }
+    .footer_num {
+      font-size: 12px;
+    }
+  }
+
+/* 350보다 작을 때 - 모바일 상태*/
+@media (max-width:349px){
+  .announce_btn ~ ul li a {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+    .menu_wrap {
+    padding: 0;
+  }
+  .often_menu_boundery button, .etc_menu_boundery button {
+    font-size: 10px;
+  }
+  .often_menu_boundery, .etc_menu_boundery{
+    border-radius: 0;
+  }
+  .often_menu_boundery button:hover, .often_menu_boundery .button_border1:hover, .often_menu_boundery .button_border2:hover,.etc_menu_boundery button:hover,.etc_menu_boundery .button_border3:hover,.etc_menu_boundery .button_border4:hover {
+    border: 0;
+    margin: 0;
+  }
+  .often_menu_boundery button:hover p, .etc_menu_boundery button:hover p {
+    text-decoration: underline;
+    color: #FF0000;
+  }
+
+  }
 
 
 
